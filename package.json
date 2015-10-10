@@ -1,0 +1,34 @@
+{
+  "name": "PushAll",
+  "version": "1.0.0",
+  "description": "Command line git add, commit with message and push",
+  "main": "pushall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobals": true,
+  "bin": {
+    "pushall": "./pushall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddikman/PushAll.git"
+  },
+  "keywords": [
+    "git",
+    "push",
+    "commit",
+    "add",
+    "node",
+    "cli"
+  ],
+  "author": "David Dikman",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/ddikman/PushAll/issues"
+  },
+  "homepage": "https://github.com/ddikman/PushAll",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
